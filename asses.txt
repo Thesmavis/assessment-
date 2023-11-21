@@ -1,0 +1,55 @@
+
+http://127.0.0.1:8000/candidate/post/ --POST
+JSON--
+{
+    "recruiter_alert": null,
+    "first_name": null,
+    "last_name": null,
+    "email": null,
+    "role": null,
+    "dob": null,
+    "contact_no_primary": null,
+    "contact_no_alternate": null,
+    "referred_by_other": null,
+    "address_line": null,
+    "pincode": null,
+    "education_specialization_other": null,
+    "education_institution_other": null,
+    "years_of_experience": null,
+    "current_employer": null,
+    "current_designation": null,
+    "current_monthly_salary": null,
+    "expected_monthly_salary": null,
+    "notice_period": null,
+    "photo_path": null,
+    "resume_path": null,
+    "login_time": null,
+    "logout_time": null,
+    "ip_address": null,
+    "geo_location": null,
+    "created_date": null,
+    "created_by": null,
+    "modified_date": null,
+    "modified_by": null,
+    "event": null,
+    "job_position": null,
+    "persona": null,
+    "screening_mode": null,
+    "gender": null,
+    "marital_status": null,
+    "referred_by": null,
+    "city": null,
+    "experience_level": null,
+    "education_level": null,
+    "education_qualification": null,
+    "education_specialization": null,
+    "education_institution": null,
+    "source": null,
+    "source_type": null,
+    "reason_for_change": null
+}
+
+http://127.0.0.1:8000/candidate/get/--GET ALL
+http://127.0.0.1:8000/candidate/get/(id)/---GET BY ID
+http://127.0.0.1:8000/candidate/patch/(id)/--PATCH
+http://127.0.0.1:8000/candidate/delete/(id)/---DELETE
