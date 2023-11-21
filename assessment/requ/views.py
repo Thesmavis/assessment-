@@ -17,11 +17,11 @@ class candidateview(APIView):
                 return Response(data1.data)
             except:
                 get_data=Candidatedirectory.objects.all()
-                data1=candidate_ser(get_data)
+                data1=candidate_ser(get_data,many=True)
                 return Response(data1.data)
         else:
             get_data=Candidatedirectory.objects.all()
-            data1=candidate_ser(get_data)
+            data1=candidate_ser(get_data,many=True)
             return Response(data1.data)
     def post(self,request):
         serializer=candidate_ser(data=request.data)
